@@ -19,7 +19,7 @@ from telegram.ext import (
 import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
-TROLL_EVERY_N = [7]  # Every 7th message
+TROLL_EVERY_N = [100]  # Every 7th message
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
